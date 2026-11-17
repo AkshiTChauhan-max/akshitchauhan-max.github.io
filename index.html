@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akshit Chauhan — Android Developer & Technical Support Engineer</title>
+<meta name="description" content="Portfolio of Akshit Chauhan, Android developer (plain Java, zero-dependency apps) and Technical Support Engineer at Central Electronics Limited, Railway Business Division.">
+<style>
+  :root{--bg:#0f172a;--card:#1e293b;--text:#e2e8f0;--muted:#94a3b8;--accent:#38bdf8;--accent2:#f59e0b}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:24px 20px 64px}
+  header{text-align:center;padding:56px 0 32px}
+  header img{width:120px;height:120px;border-radius:50%;border:3px solid var(--accent)}
+  h1{font-size:2.4rem;margin:18px 0 6px}
+  .role{color:var(--accent);font-size:1.15rem;font-weight:600}
+  .sub{color:var(--muted);max-width:640px;margin:10px auto 0}
+  .links{margin-top:22px}
+  .links a{display:inline-block;margin:4px;padding:9px 18px;border:1px solid var(--accent);color:var(--accent);border-radius:999px;text-decoration:none;font-weight:600}
+  .links a:hover{background:var(--accent);color:#082f49}
+  h2{font-size:1.5rem;margin:44px 0 16px;border-left:4px solid var(--accent2);padding-left:12px}
+  p.about{color:var(--text)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}
+  .card{background:var(--card);border-radius:14px;padding:20px}
+  .card h3{color:var(--accent);margin-bottom:6px;font-size:1.1rem}
+  .card p{color:var(--muted);font-size:.95rem}
+  .tag{display:inline-block;background:#0b1220;color:var(--accent2);border:1px solid #334155;font-size:.75rem;padding:2px 9px;border-radius:999px;margin:8px 4px 0 0}
+  ul.skills{list-style:none}
+  ul.skills li{background:var(--card);border-radius:10px;padding:12px 16px;margin-bottom:10px}
+  ul.skills li b{color:var(--accent)}
+  footer{text-align:center;color:var(--muted);margin-top:56px;font-size:.9rem}
+  footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="https://github.com/AkshiTChauhan-max.png" alt="Akshit Chauhan">
+    <h1>Akshit Chauhan</h1>
+    <div class="role">Android Developer &middot; Technical Support Engineer</div>
+    <p class="sub">I build practical, lightweight Android apps in plain Java with zero dependencies, and I install, commission and troubleshoot railway signalling electronics in the field.</p>
+    <div class="links">
+      <a href="https://github.com/AkshiTChauhan-max">GitHub</a>
+      <a href="https://chauhantech.info">ChauhanTech</a>
+      <a href="#projects">My Projects</a>
+    </div>
+  </header>
+
+  <h2>About Me</h2>
+  <p class="about">I am a Technical Support Engineer at Central Electronics Limited (CEL), Railway Business Division — a Government of India enterprise — where I work on installation, commissioning, calibration and maintenance of SSDAC / DAC axle counters and High Speed Axle Detectors used by Indian Railways. I hold a Diploma in Electronics Engineering (CRRIT, Delhi, 2022). Alongside my field work, I design and build my own Android applications from scratch — plain Java, no AndroidX, no third-party dependencies — focused on solving real problems I face in my daily work: PDF tools for railway tickets and forms, a document scanner, a train information app, and a cleaner that understands modern Android and cloned apps.</p>
+
+  <h2 id="projects">Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>PdfTextEditor</h3>
+      <p>An Android PDF text editor for working with railway e-tickets and documents — edit text in place while preserving the original layout, fonts and alignment, with barcode handling, auto tools and date/time pickers.</p>
+      <span class="tag">Android</span><span class="tag">Java</span><span class="tag">PDF</span>
+    </div>
+    <div class="card">
+      <h3>RailYatra</h3>
+      <p>A train information app with offline data for 8,900+ stations and 5,200+ trains — trains between stations, routes, a break-journey planner, nearby stations by GPS, chart vacancy and live status via official sources.</p>
+      <span class="tag">Android</span><span class="tag">Java</span><span class="tag">Offline Data</span>
+    </div>
+    <div class="card">
+      <h3>ScanDoc</h3>
+      <p>A PDF scanner in the style of Adobe Scan / CamScanner — camera, gallery and PDF import, automatic corner detection with perspective correction, filters, page management, PDF export and merge, plus built-in Word and Excel readers.</p>
+      <span class="tag">Android</span><span class="tag">Java</span><span class="tag">Scanner</span>
+    </div>
+    <div class="card">
+      <h3>Frost</h3>
+      <p>An Android cleaner rebuilt for modern Android versions — verified junk cleaning including Android/data and Android/obb via storage access, with full support for cloned (dual) apps across user profiles.</p>
+      <span class="tag">Android</span><span class="tag">Java</span><span class="tag">Utility</span>
+    </div>
+    <div class="card">
+      <h3>FormFiller</h3>
+      <p>A small personal automation app that fills my daily CEL manpower attendance Google Form with my fixed details on a single button tap, leaving only the day's work entry to type before submitting.</p>
+      <span class="tag">Android</span><span class="tag">Java</span><span class="tag">Automation</span>
+    </div>
+    <div class="card">
+      <h3>SSDAC Analyser</h3>
+      <p>A field tool for analysing CEL digital axle counter data, built to support troubleshooting, root cause analysis and failure analysis reports for railway signalling equipment.</p>
+      <span class="tag">Android</span><span class="tag">Java</span><span class="tag">Railway</span>
+      <p style="margin-top:8px"><a style="color:var(--accent)" href="https://github.com/AkshiTChauhan-max/Ssdac-analyser">View on GitHub</a></p>
+    </div>
+    <div class="card">
+      <h3>EMI Card Tracker</h3>
+      <p>A simple tracker for EMI card payments and due dates.</p>
+      <span class="tag">Android</span><span class="tag">Java</span>
+      <p style="margin-top:8px"><a style="color:var(--accent)" href="https://github.com/AkshiTChauhan-max/EMI-Card-Tracker">View on GitHub</a></p>
+    </div>
+    <div class="card">
+      <h3>ChauhanTech PDF Library</h3>
+      <p>My work library of CEL / Railway Business Division forms and documents, organised in folders with upload and file management, used by my team for day-to-day paperwork.</p>
+      <span class="tag">Web</span><span class="tag">Railway</span>
+      <p style="margin-top:8px"><a style="color:var(--accent)" href="https://chauhantech.info/CEL/">Visit the library</a></p>
+    </div>
+  </div>
+
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li><b>Android Development:</b> Plain Java, Android SDK, zero-dependency architecture, PDF processing, offline-first data</li>
+    <li><b>Railway Signalling:</b> SSDAC / DAC and High Speed Axle Detectors — installation, commissioning, calibration, maintenance</li>
+    <li><b>Electronics Troubleshooting:</b> PCB-level fault isolation, Root Cause Analysis, Failure Analysis Reports (FAR), RDSO compliance</li>
+    <li><b>Test Instruments:</b> DSO, multimeters, signal generators, LCR meters, insulation testers</li>
+  </ul>
+
+  <h2>Experience</h2>
+  <ul class="skills">
+    <li><b>Technical Support Engineer — Central Electronics Limited (CEL), Railway Business Division</b><br><span style="color:var(--muted)">Since July 2025 &middot; Field installation, commissioning and maintenance of axle detection systems for Indian Railways.</span></li>
+    <li><b>Diploma in Electronics Engineering — CRRIT, Delhi</b><br><span style="color:var(--muted)">2022</span></li>
+  </ul>
+
+  <footer>
+    <p>&copy; 2026 Akshit Chauhan &middot; Delhi, India &middot; <a href="https://github.com/AkshiTChauhan-max">github.com/AkshiTChauhan-max</a></p>
+  </footer>
+</div>
+</body>
+</html>
